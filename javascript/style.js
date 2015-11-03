@@ -10,6 +10,5 @@ function mouseOut() {
 
 }
 
-function changeText(){
-	document.getElmentById("text").style.textScript = "yellow";
-}
+
+
