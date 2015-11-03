@@ -2,32 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
-		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
-		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/additional-methods.min.js"></script>
-		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="javascript/style.js" type="text/javascript"/>
 		<title>javascript exercise</title>
 	</head>
-		<body class="sfooter">
-			<div class="sfooter-content">
+		<body>
 	 			<header>
 					<a class="logo" href="#">Bacon Ipsum</a>
 						<div class="row">
 							<div class="col-md-12">
+								<div id="mouse" onmouseover="mouseOver();" onmouseout="mouseOut();">
 					<p>Bacon ipsum dolor amet filet mignon pancetta corned beef swine drumstick. Alcatra pancetta cow rump, bacon tail
 			biltong pork belly pork sirloin strip steak chuck. Brisket turkey swine spare ribs short ribs leberkas
 			kielbasa, pork short loin frankfurter pig boudin biltong t-bone. Boudin rump venison tongue andouille pancetta
 			short loin sirloin alcatra tri-tip pork short ribs capicola. Beef ribs kielbasa boudin corned beef, cupim
-			ground round tri-tip flank tongue. Bacon andouille salami bresaola jowl.</p>
+			ground round tri-tip flank tongue. Bacon andouille salami bresaola jowl.</p></div>
 					<div class="row">
 						<div class="col-md-12">
 		<p>Strip steak alcatra chicken jerky ham hock turducken meatball spare ribs beef shankle corned beef pancetta
@@ -41,5 +29,7 @@
 			sausage andouille chuck, shank corned beef shoulder sirloin tenderloin pig jerky. Drumstick ham flank
 			tenderloin, pastrami boudin chuck. Bacon beef ribs meatball pork loin andouille pork chop beef ribeye,
 			biltong venison cupim pig.</p>
+						<div id="mouse" onmouseover="mouseOver();" onmouseout="mouseOut();">Hover over me.</div>
 			</div>
+		</body>
 </html>
