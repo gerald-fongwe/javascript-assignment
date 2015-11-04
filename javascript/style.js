@@ -7,8 +7,11 @@ function mouseOver() {
 
 function mouseOut() {
 	document.getElementById("mouse").style.backgroundColor = "red";
-
 }
+function changeColorOnMouseOver() {
+	document.getElementById("mouse").style.color = "yellow";
+}
+
 
 
 
