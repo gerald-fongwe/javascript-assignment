@@ -12,8 +12,7 @@ function changeColorOnMouseOver() {
 	document.getElementById("mouse").style.color = "yellow";
 }
 
-function findDocument(){
+function onclick() {
+	var find
+	Value = document.getElementById(findName())
 }
-
-
-

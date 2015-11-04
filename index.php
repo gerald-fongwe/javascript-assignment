@@ -38,6 +38,7 @@
 							</p>
 						</div>
 				</div>
-					Find <input type="text"  id="fineName()"/>
-	</body>
+					<input type="button" Value="Find"  id="fineName()"/>
+					<input type="text" id="findName"/>
 </html>
+	</body>
